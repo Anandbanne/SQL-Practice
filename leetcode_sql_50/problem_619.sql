@@ -2,7 +2,7 @@
 Problem : 619. Biggest Single Number
 Platform: LeetCode
 Difficulty: Easy
-Date: 09-07-2026
+Date: 14-08-2026
 */
 
 select max(num) as num from mynumbers where num in (
