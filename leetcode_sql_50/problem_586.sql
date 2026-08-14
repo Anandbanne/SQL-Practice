@@ -2,7 +2,7 @@
 Problem : 586. Customer Placing the Largest Number of Orders
 Platform: LeetCode
 Difficulty: Easy
-Date: 09-07-2026
+Date: 14-08-2026
 */
  select customer_number from orders  
  group by customer_number order by count(customer_number) desc 
